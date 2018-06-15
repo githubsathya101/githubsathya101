@@ -20,7 +20,7 @@ public class DateTest {
      System.out.println();
      System.out.println("2nd Object");
      Employee e1=new Employee(102,"sathyadev2",100000);
-     //hello dude
+     //hello dude hai
      System.out.println(e1.getEid());
      System.out.println(e1.getEname());
      System.out.println(e1.getSalary());
