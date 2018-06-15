@@ -13,9 +13,16 @@ public class DateTest {
 		e.setEname("sathya");
 		e.setSalary(100000);
      System.out.println("my GITHUB project created on:  "+new Date());
+     System.out.println("1st object");
      System.out.println(e.getEid());
      System.out.println(e.getEname());
      System.out.println(e.getSalary());
+     System.out.println();
+     System.out.println("2nd Object");
+     Employee e1=new Employee(102,"sathyadev2",100000);
+     System.out.println(e1.getEid());
+     System.out.println(e1.getEname());
+     System.out.println(e1.getSalary());
 	}
 
 }

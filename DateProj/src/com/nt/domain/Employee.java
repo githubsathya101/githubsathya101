@@ -4,6 +4,15 @@ public class Employee {
       private int eid;
       private String ename;
       private int salary;
+      public Employee(){
+    	  System.out.println("0-param");
+      }
+      public Employee(int eid,String ename,int salary){
+    	  System.out.println("3-param");
+    	  this.eid=eid;
+    	  this.ename=ename;
+    	  this.salary=salary;
+      }
 	public int getEid() {
 		return eid;
 	}
