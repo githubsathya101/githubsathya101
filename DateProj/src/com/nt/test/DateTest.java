@@ -26,6 +26,7 @@ public class DateTest {
      System.out.println(e1.getEid());
      System.out.println(e1.getEname());
      System.out.println(e1.getSalary());
+     System.out.println("hello");
 	}
 
 }
